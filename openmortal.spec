@@ -17,6 +17,7 @@ BuildRequires:	SDL_mixer-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	freetype-devel >= 2.1.0
+BuildRequires:	libstdc++-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
