@@ -9,6 +9,7 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
 # Source0-md5:	a396fd9f32aa009ba462cf3464b68fe1
 Source1:	%{name}.desktop
 Source2:	%{name}.png
+Patch0:		%{name}-freetype-includes.patch
 URL:		http://openmortal.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
@@ -16,6 +17,7 @@ BuildRequires:	SDL_mixer-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	freetype-devel >= 2.1.0
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -26,13 +28,15 @@ Parodia popularnej gry, Mortal Kombat.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %{__aclocal}
 %{__autoconf}
+%{__autoheader}
 %{__automake}
 %configure
-%{__make} CC="-lperl -I/usr/lib/perl5/5.8.2/i686-pld-linux-thread-multi/CORE"
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
