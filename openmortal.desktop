@@ -7,5 +7,5 @@ Icon=openmortal.png
 Exec=openmortal
 Terminal=false
 Type=Application
-Categories=Application;Game;ArcadeGame;
+Categories=Game;ArcadeGame;
 # vi: encoding=utf-8
