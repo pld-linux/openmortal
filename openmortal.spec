@@ -1,12 +1,12 @@
 Summary:	Parody of the popular game, Mortal Kombat
 Summary(pl):	Parodia popularnej gry, Mortal Kombat
 Name:		openmortal
-Version:	0.5
+Version:	0.6
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
-# Source0-md5:	441e3b8fc81ba9260a91692d0ca9458d
+# Source0-md5:	50ff59fdfc1a7679abbc25a9b892e2d0
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-freetype-includes.patch
@@ -14,12 +14,12 @@ URL:		http://openmortal.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
 BuildRequires:	SDL_mixer-devel
+BuildRequires:	SDL_net-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	freetype-devel >= 2.1.0
 BuildRequires:	libstdc++-devel
 BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	SDL_net-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
