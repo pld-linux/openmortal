@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=OpenMortal
+Comment=Parody of the popular game, Mortal Kombat
+Comment[pl]=Parodia popularnej gry, Mortal Kombat
+Icon=openmortal.png
+Exec=openmortal
+Terminal=0
+Type=Application
+Categories=Application;Game;ArcadeGame
+# vi: encoding=utf-8
