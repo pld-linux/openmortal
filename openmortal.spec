@@ -1,12 +1,12 @@
 Summary:	Parody of the popular game, Mortal Kombat
 Summary(pl):	Parodia popularnej gry, Mortal Kombat
 Name:		openmortal
-Version:	0.3
+Version:	0.4
 Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
-# Source0-md5:	a396fd9f32aa009ba462cf3464b68fe1
+# Source0-md5:	350650ba1b66333f5736d4aa6ea944ba
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-freetype-includes.patch
