@@ -1,13 +1,13 @@
---- openmortal-0.3/src/sge_tt_text.cpp.orig	Thu Aug 21 17:29:03 2003
-+++ openmortal-0.3/src/sge_tt_text.cpp	Tue Jan  6 10:15:31 2004
-@@ -36,9 +36,10 @@
- #include "sge_tt_text.h"
+diff -urN openmortal-0.5-orig/src/sge_tt_text.cpp openmortal-0.5/src/sge_tt_text.cpp
+--- openmortal-0.5-orig/src/sge_tt_text.cpp	2004-01-30 13:12:59.000000000 +0100
++++ openmortal-0.5/src/sge_tt_text.cpp	2004-02-03 00:04:29.000000000 +0100
+@@ -37,9 +37,9 @@
  
  #ifndef _SGE_NOTTF
+ #include <ft2build.h>
 -#include <freetype/freetype.h>
 -#include <freetype/ftoutln.h>
 -#include <freetype/ttnameid.h>
-+#include <ft2build.h>
 +#include FT_FREETYPE_H
 +#include FT_OUTLINE_H
 +#include FT_TRUETYPE_IDS_H
