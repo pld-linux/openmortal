@@ -12,7 +12,7 @@ Source2:	%{name}.png
 URL:		http://openmortal.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
-Buildrequires:	SDL_mixer-devel
+BuildRequires:	SDL_mixer-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	freetype-devel >= 2.1.0
