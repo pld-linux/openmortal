@@ -32,7 +32,7 @@ Parodia popularnej gry, Mortal Kombat.
 %{__autoconf}
 %{__automake}
 %configure
-%{__make}
+%{__make} CC="-lperl -I/usr/lib/perl5/5.8.2/i686-pld-linux-thread-multi/CORE"
 
 %install
 rm -rf $RPM_BUILD_ROOT
