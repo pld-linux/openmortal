@@ -5,7 +5,7 @@ Version:	0.7
 Release:	2
 License:	GPL
 Group:		X11/Applications/Games
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/openmortal/%{name}-%{version}.tar.bz2
 # Source0-md5:	95278382bb563906fce624d833a845cf
 Source1:	%{name}.desktop
 Source2:	%{name}.png
