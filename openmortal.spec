@@ -1,5 +1,5 @@
 Summary:	Parody of the popular game, Mortal Kombat
-Summary(pl):	Parodia popularnej gry, Mortal Kombat
+Summary(pl.UTF-8):   Parodia popularnej gry, Mortal Kombat
 Name:		openmortal
 Version:	0.7
 Release:	2
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Parody of the popular game, Mortal Kombat.
 
-%description -l pl
+%description -l pl.UTF-8
 Parodia popularnej gry, Mortal Kombat.
 
 %prep
