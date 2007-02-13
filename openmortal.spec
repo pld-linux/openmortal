@@ -1,5 +1,5 @@
 Summary:	Parody of the popular game, Mortal Kombat
-Summary(pl.UTF-8):   Parodia popularnej gry, Mortal Kombat
+Summary(pl.UTF-8):	Parodia popularnej gry, Mortal Kombat
 Name:		openmortal
 Version:	0.7
 Release:	2
