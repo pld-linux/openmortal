@@ -1,9 +1,8 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=OpenMortal
 Comment=Parody of the popular game, Mortal Kombat
 Comment[pl]=Parodia popularnej gry, Mortal Kombat
-Icon=openmortal.png
+Icon=openmortal
 Exec=openmortal
 Terminal=false
 Type=Application
