@@ -1,0 +1,11 @@
+--- openmortal-0.7/src/OnlineChat.cpp.orig	2008-09-26 21:01:39.576787888 +0200
++++ openmortal-0.7/src/OnlineChat.cpp	2008-09-26 21:02:16.574245136 +0200
+@@ -56,7 +56,7 @@
+ class CChallengeMenu: public Menu
+ {
+ public:
+-	CChallengeMenu::CChallengeMenu( std::string a_sChallenger )
++	CChallengeMenu( std::string a_sChallenger )
+ 	: Menu( "You have been challenged!" ),
+ 	m_sChallenger( a_sChallenger )
+ 	{
