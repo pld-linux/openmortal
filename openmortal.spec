@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/openmortal/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Patch0:		%{name}-freetype-includes.patch
+Patch1:		%{name}-gcc4.patch
 URL:		http://openmortal.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_image-devel
@@ -31,6 +32,7 @@ Parodia popularnej gry, Mortal Kombat.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
 
 %build
 %{__aclocal}
